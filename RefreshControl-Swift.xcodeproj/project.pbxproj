@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462C374C19EC0F1900A1862B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C374B19EC0F1900A1862B /* AppDelegate.swift */; };
+		462C374E19EC0F1900A1862B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C374D19EC0F1900A1862B /* ViewController.swift */; };
+		462C375119EC0F1900A1862B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462C374F19EC0F1900A1862B /* Main.storyboard */; };
+		462C375319EC0F1900A1862B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462C375219EC0F1900A1862B /* Images.xcassets */; };
+		462C375619EC0F1900A1862B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 462C375419EC0F1900A1862B /* LaunchScreen.xib */; };
+		462C376219EC0F1900A1862B /* RefreshControl_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C376119EC0F1900A1862B /* RefreshControl_SwiftTests.swift */; };
+		462C376D19EC0F7E00A1862B /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C376C19EC0F7E00A1862B /* Arrow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		462C375C19EC0F1900A1862B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462C373E19EC0F1900A1862B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462C374519EC0F1900A1862B;
+			remoteInfo = "RefreshControl-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		462C374619EC0F1900A1862B /* RefreshControl-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RefreshControl-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462C374A19EC0F1900A1862B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462C374B19EC0F1900A1862B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		462C374D19EC0F1900A1862B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		462C375019EC0F1900A1862B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462C375219EC0F1900A1862B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		462C375519EC0F1900A1862B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		462C375B19EC0F1900A1862B /* RefreshControl-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RefreshControl-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462C376019EC0F1900A1862B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462C376119EC0F1900A1862B /* RefreshControl_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshControl_SwiftTests.swift; sourceTree = "<group>"; };
+		462C376C19EC0F7E00A1862B /* Arrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462C374319EC0F1900A1862B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462C375819EC0F1900A1862B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462C373D19EC0F1900A1862B = {
+			isa = PBXGroup;
+			children = (
+				462C374819EC0F1900A1862B /* RefreshControl-Swift */,
+				462C375E19EC0F1900A1862B /* RefreshControl-SwiftTests */,
+				462C374719EC0F1900A1862B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462C374719EC0F1900A1862B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462C374619EC0F1900A1862B /* RefreshControl-Swift.app */,
+				462C375B19EC0F1900A1862B /* RefreshControl-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462C374819EC0F1900A1862B /* RefreshControl-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				462C376B19EC0F4800A1862B /* RefreshControl-Swift */,
+				462C374B19EC0F1900A1862B /* AppDelegate.swift */,
+				462C374D19EC0F1900A1862B /* ViewController.swift */,
+				462C374F19EC0F1900A1862B /* Main.storyboard */,
+				462C375219EC0F1900A1862B /* Images.xcassets */,
+				462C375419EC0F1900A1862B /* LaunchScreen.xib */,
+				462C374919EC0F1900A1862B /* Supporting Files */,
+			);
+			path = "RefreshControl-Swift";
+			sourceTree = "<group>";
+		};
+		462C374919EC0F1900A1862B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462C374A19EC0F1900A1862B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		462C375E19EC0F1900A1862B /* RefreshControl-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				462C376119EC0F1900A1862B /* RefreshControl_SwiftTests.swift */,
+				462C375F19EC0F1900A1862B /* Supporting Files */,
+			);
+			path = "RefreshControl-SwiftTests";
+			sourceTree = "<group>";
+		};
+		462C375F19EC0F1900A1862B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462C376019EC0F1900A1862B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		462C376B19EC0F4800A1862B /* RefreshControl-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				462C376C19EC0F7E00A1862B /* Arrow.swift */,
+			);
+			path = "RefreshControl-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462C374519EC0F1900A1862B /* RefreshControl-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462C376519EC0F1900A1862B /* Build configuration list for PBXNativeTarget "RefreshControl-Swift" */;
+			buildPhases = (
+				462C374219EC0F1900A1862B /* Sources */,
+				462C374319EC0F1900A1862B /* Frameworks */,
+				462C374419EC0F1900A1862B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RefreshControl-Swift";
+			productName = "RefreshControl-Swift";
+			productReference = 462C374619EC0F1900A1862B /* RefreshControl-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		462C375A19EC0F1900A1862B /* RefreshControl-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462C376819EC0F1900A1862B /* Build configuration list for PBXNativeTarget "RefreshControl-SwiftTests" */;
+			buildPhases = (
+				462C375719EC0F1900A1862B /* Sources */,
+				462C375819EC0F1900A1862B /* Frameworks */,
+				462C375919EC0F1900A1862B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				462C375D19EC0F1900A1862B /* PBXTargetDependency */,
+			);
+			name = "RefreshControl-SwiftTests";
+			productName = "RefreshControl-SwiftTests";
+			productReference = 462C375B19EC0F1900A1862B /* RefreshControl-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462C373E19EC0F1900A1862B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Moch;
+				TargetAttributes = {
+					462C374519EC0F1900A1862B = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					462C375A19EC0F1900A1862B = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 462C374519EC0F1900A1862B;
+					};
+				};
+			};
+			buildConfigurationList = 462C374119EC0F1900A1862B /* Build configuration list for PBXProject "RefreshControl-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462C373D19EC0F1900A1862B;
+			productRefGroup = 462C374719EC0F1900A1862B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462C374519EC0F1900A1862B /* RefreshControl-Swift */,
+				462C375A19EC0F1900A1862B /* RefreshControl-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462C374419EC0F1900A1862B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462C375119EC0F1900A1862B /* Main.storyboard in Resources */,
+				462C375619EC0F1900A1862B /* LaunchScreen.xib in Resources */,
+				462C375319EC0F1900A1862B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462C375919EC0F1900A1862B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462C374219EC0F1900A1862B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462C374E19EC0F1900A1862B /* ViewController.swift in Sources */,
+				462C374C19EC0F1900A1862B /* AppDelegate.swift in Sources */,
+				462C376D19EC0F7E00A1862B /* Arrow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462C375719EC0F1900A1862B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462C376219EC0F1900A1862B /* RefreshControl_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		462C375D19EC0F1900A1862B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462C374519EC0F1900A1862B /* RefreshControl-Swift */;
+			targetProxy = 462C375C19EC0F1900A1862B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		462C374F19EC0F1900A1862B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462C375019EC0F1900A1862B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462C375419EC0F1900A1862B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462C375519EC0F1900A1862B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462C376319EC0F1900A1862B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		462C376419EC0F1900A1862B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462C376619EC0F1900A1862B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RefreshControl-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		462C376719EC0F1900A1862B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RefreshControl-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		462C376919EC0F1900A1862B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RefreshControl-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RefreshControl-Swift.app/RefreshControl-Swift";
+			};
+			name = Debug;
+		};
+		462C376A19EC0F1900A1862B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RefreshControl-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RefreshControl-Swift.app/RefreshControl-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462C374119EC0F1900A1862B /* Build configuration list for PBXProject "RefreshControl-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462C376319EC0F1900A1862B /* Debug */,
+				462C376419EC0F1900A1862B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462C376519EC0F1900A1862B /* Build configuration list for PBXNativeTarget "RefreshControl-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462C376619EC0F1900A1862B /* Debug */,
+				462C376719EC0F1900A1862B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		462C376819EC0F1900A1862B /* Build configuration list for PBXNativeTarget "RefreshControl-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462C376919EC0F1900A1862B /* Debug */,
+				462C376A19EC0F1900A1862B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462C373E19EC0F1900A1862B /* Project object */;
+}
