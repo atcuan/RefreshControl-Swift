@@ -10,22 +10,22 @@ let kArrowPointCount = 7
 
 import UIKit
 
-class Arrow: UIView {
+public class Arrow: UIView {
     
-    required init(coder aDecoder: NSCoder) {
+    var color: UIColor?
+    required public init(coder aDecoder: NSCoder) {
         self.color = UIColor.lightGrayColor()
         super.init(coder: aDecoder)
         self.backgroundColor = UIColor.clearColor()
     }
     
-    let color: UIColor?
     override init(frame: CGRect) {
         self.color = UIColor.lightGrayColor()
         super.init(frame: frame)
         self.backgroundColor = UIColor.clearColor()
     }
     
-    override func drawRect(rect: CGRect) {
+    override public func drawRect(rect: CGRect) {
         let startPoint = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMaxY(self.bounds));
         let endPoint = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMinY(self.bounds));
         let tailWidth = CGRectGetWidth(self.bounds) / 3;
@@ -36,13 +36,14 @@ class Arrow: UIView {
         bezierPath.fill()
     }
     
-    func rotation() {
+    // MARK: - public methods
+    public func rotation() {
         UIView.animateWithDuration(0.2, animations: {
             self.transform = CGAffineTransformMakeRotation(CGFloat(M_PI))
         })
     }
     
-    func identity() {
+    public func identity() {
         UIView.animateWithDuration(0.2, animations: {
             self.transform = CGAffineTransformIdentity
         })
@@ -50,9 +51,9 @@ class Arrow: UIView {
 }
 
 // MARK: - UIBezierPath extension
-extension UIBezierPath {
+public extension UIBezierPath {
     
-    class func bezierPathWithArrowFromPointStartPoint(startPoint: CGPoint, toPoint endPoint: CGPoint, tailWidth: CGFloat, headWidth: CGFloat, headLength: CGFloat) -> UIBezierPath {
+   public class func bezierPathWithArrowFromPointStartPoint(startPoint: CGPoint, toPoint endPoint: CGPoint, tailWidth: CGFloat, headWidth: CGFloat, headLength: CGFloat) -> UIBezierPath {
         let xDiff = Float(endPoint.x - startPoint.x)
         let yDiff = Float(endPoint.y - startPoint.y)
         let length = CGFloat(hypotf(xDiff, yDiff))

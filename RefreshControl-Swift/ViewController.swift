@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var arrow: Arrow!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.arrow.layer.borderColor = UIColor.redColor().CGColor
-        self.arrow.layer.borderWidth = 1
+        
+        self.arrow.rotation()
     }
 
     override func didReceiveMemoryWarning() {
