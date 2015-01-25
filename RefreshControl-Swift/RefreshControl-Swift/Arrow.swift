@@ -53,7 +53,7 @@ public class Arrow: UIView {
 // MARK: - UIBezierPath extension
 public extension UIBezierPath {
     
-   public class func bezierPathWithArrowFromPointStartPoint(startPoint: CGPoint, toPoint endPoint: CGPoint, tailWidth: CGFloat, headWidth: CGFloat, headLength: CGFloat) -> UIBezierPath {
+    public class func bezierPathWithArrowFromPointStartPoint(startPoint: CGPoint, toPoint endPoint: CGPoint, tailWidth: CGFloat, headWidth: CGFloat, headLength: CGFloat) -> UIBezierPath {
         let xDiff = Float(endPoint.x - startPoint.x)
         let yDiff = Float(endPoint.y - startPoint.y)
         let length = CGFloat(hypotf(xDiff, yDiff))
